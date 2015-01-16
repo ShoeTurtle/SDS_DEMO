@@ -8,9 +8,9 @@ import java.util.Date;
  * Time: 2:54 PM
  */
 public class Eligibility {
-    String id;
-    Date eligibilityStartDate;
-    Date eligibilityEndDate;
+    private String id;
+    private Date eligibilityStartDate;
+    private Date eligibilityEndDate;
 
     public void setId(String id) {
         this.id = id;

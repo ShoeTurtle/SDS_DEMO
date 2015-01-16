@@ -6,12 +6,12 @@ package com.smartdata;
  * Time: 2:54 PM
  */
 public class Member {
-    String id;
-    String first_name;
-    String last_name;
-    String address;
-    String email;
-    String phone_no;
+    private String id;
+    private String first_name;
+    private String last_name;
+    private String address;
+    private String email;
+    private String phone_no;
 
 
     public void setId(String id) {

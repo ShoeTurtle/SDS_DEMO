@@ -39,7 +39,7 @@ public class MemberReports extends MemberLineFilter {
         Date member_termination = null;
         for (Eligibility eligibility : eligibilities) {
             if (member.getId().equalsIgnoreCase(eligibility.getId())) {
-                member_termination = eligibility.eligibilityEndDate;
+                member_termination = eligibility.getEligibilityEndDate();
                 break;
             }
         }
